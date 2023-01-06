@@ -1,0 +1,320 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* The first section (Header) */
+.section1{
+    padding: 1px;
+    background-image:linear-gradient(rgba(7, 7, 35, 0.884),rgba(9, 9, 44, 0.892)), url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.section1 ul li{
+    display: inline;
+    margin: 0;
+}
+
+.section1 .logo{
+    margin-right: 33%;
+    margin-left: 18%;
+}
+.section1 .logo:hover{
+    cursor: pointer;
+}
+.section1 .nav-word{
+    margin-right: 2%;
+    font-size: 12px;
+    font-weight: 300;
+}
+.section1 .nav-word:hover{
+    cursor: pointer;
+}
+.section1 .landing-page{
+    margin-left: 20%;
+    margin-top: 17%;
+    width: 45%;
+}
+.section1 .landing-page h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0;
+}
+.section1 .landing-page p{
+    font-size: 15px;
+    font-weight: 200;
+    margin: 0;
+    margin-bottom: 3%;
+}
+.section1 .landing-page button{
+    background: #f53f51;
+    border: 1px solid transparent;
+    color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: 0.3s;
+}
+.section1 .landing-page button:hover{
+    border: 1px solid white;
+    background: #f73f5200;
+    cursor: pointer;
+}
+/* the second section */
+.section2{
+    padding: 5% 0%;
+}
+.section2 .hero{
+    width: 50%;
+    margin: auto;
+}
+.section2 .hero .title span{
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+}
+.section2 .hero .title{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 100; 
+    float: left;
+    margin: 0;
+    margin-right: 3%;
+    text-align: right;
+}
+.section2 .hero .desc{
+    font-size: 15px;
+    font-weight: 200;
+}
+.clr{
+    clear: both;
+}
+.section2 .big-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.section2 .container{
+    width: 20%;
+    text-align: center;
+    float: left;
+    margin-left: 10%;
+}
+.section2 .container h2{
+    font-size: 20px;
+    margin: 0;
+    margin-top: 1%;
+}
+.section2 .container p{
+    font-size: 15px;
+    font-weight: 200;
+}
+/* the third section  */
+.section3{
+    background-color: #f9f9ff;
+    height: 85.5vh;
+}
+.section3 .pivot{
+    float: left;
+    /* height: 890px; */
+    /* width: 40%; */
+}
+.section3 .container2{
+    background-color: #f9f9ff;
+    padding: 100px 200px;
+    margin-left: 600px
+}
+.section3 .container2 h2{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 500;
+}
+.section3 .container2 p{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 200;
+}
+.section3 .parent{
+    margin-top: 80px;
+}
+.section3 .parent .child{
+    width: 30%;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.3s;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+.section3 .child:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) -20px 20px 25px -5px;
+}
+/* the fourth section  */
+.section4{
+    padding: 0px;
+    /* margin: auto; */
+    /* background-color: #f53f51; */
+    width: 100%;
+}
+.parent1{
+    margin-top: 0px;
+    width: 75%;
+    margin: auto;
+    padding: 70px 0px;
+    margin-left: 23.5%;
+    /* text-align: center; */
+}
+.parent1 .child1{
+    text-align: center;
+    width: 10%;
+    color: #f53f51;
+    /* background-color: rgb(117, 5, 5); */
+    padding: 1em 2em;
+    /* margin: auto; */
+    float: left; 
+    margin-left: 3%;
+    box-shadow: #f53f5180 0px 20px 100px;
+    border-radius: 10px;
+}
+.parent1 .child1 h2{
+    font-size: 60px;
+    font-weight: 300;
+    margin: 0;
+}
+.parent1 .child1 p{
+    font-size: 15px;
+    color: black;
+    font-weight: 300;
+}
+.parent2{
+    margin: auto;
+    padding: 10% 0%;
+    width: 100%;
+}
+.parent2 h2{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 2%;
+}
+.parent2 p{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: 200;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 1%;
+}
+.parent2 .child2{
+    margin: auto;
+    width: 3%;
+}
+.parent2 .child2 img{
+    /* background-color: #cfcfcf; */
+    margin: 0;
+    margin-top: 1em;
+    transition: 0.3s;
+}
+.parent2 .child2 img:hover{
+    cursor: pointer;
+    background-color: #f53f51;
+}
+/* The fifth section  */
+.section5{
+    background-color: #04091e;
+    color: white;
+    padding: 5%;
+    text-align: center;
+}
+.section5 h2{
+    font-size: 40px;
+    margin-bottom: 1%;
+    font-weight: 400;
+}
+.section5 p{
+    font-size: 15px;
+    font-weight: 100;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+.section5 button{
+    background: #ffffff;
+    border: 1px solid transparent;
+    color: rgb(0, 0, 0);
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: 0.3s;
+}
+.section5 button:hover{
+    border: 1px solid white;
+    background: #f73f5200;
+    color: white;
+    cursor: pointer;
+}
+/* the sixth section  */
+.section6{
+    height: 51.2vh;
+}
+.section6 iframe{
+    height: 500px;
+    margin-left: 30em;
+    float: left;    
+    margin-right: 5em;
+}
+.section6 .dob {
+    margin-top: 5em;
+}
+.section6 input{
+    border: 1px solid rgba(111,117,152,.3);
+    line-height: 48px;
+    width: 30%;
+    margin-bottom: 1em;
+    /* display: block; */
+    background: transparent;
+    padding: 0 25px;
+    color: #777;
+}   
+.section6 textarea{
+    margin-top: 1em;
+    border: 1px solid rgba(111,117,152,.3);
+    line-height: 20px;
+    width: 30%;
+    /* display: block; */
+    background: transparent;
+    padding: 0 25px;
+    color: #777; 
+}
+.section6 .container3 button{
+    background-color: #f53f51;
+    border: 1px solid transparent;
+    color: rgb(255, 255, 255);
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: 0.3s;  
+}
+.section6 button:hover{
+    border: 1px solid white;
+    /* background: #f73f5200; */
+    color: white;
+    cursor: pointer;
+}
